@@ -39,7 +39,7 @@ body {
 /* style starter */
 
 .hero-welcome-1 {
-  background-image: url("../img/dindahaw7.jpg");
+  background-image: url("../img/vector-wedding.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +49,7 @@ body {
   z-index: 3;
 }
 .hero-welcome {
-  background-image: url("../img/dindahaw7.jpg");
+  background-image: url("../img/vector-wedding.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -286,10 +286,10 @@ img.img-highlights {
 
 footer {
   text-align: center;
-  background-image: url("../img/footer.svg");
-  background-repeat: no-repeat;
+  background-image: url("../img/noname.png");
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  height: 40vh;
+  height: 100%;
 }
 
 /* Tablet Break Point */
