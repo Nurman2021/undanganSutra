@@ -214,7 +214,7 @@
 
 
   <footer class="row align-items-end">
-    <p class="copyright">Powered by <a href="https://iatech.studio" class="fw-bold text-light">iatech.studion</a></p>
+    <p class="copyright">Powered by <a href="https://www.instagram.com/a.obosky/" class="fw-bold text-light">Obo Sky</a></p>
   </footer>
 
 

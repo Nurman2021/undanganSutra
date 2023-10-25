@@ -38,7 +38,7 @@ AOS.init({
     }
     //end
     
-    const countDown = new Date(2022,2,4,10,00).getTime(),
+    const countDown = new Date(2022,2,4,10,0).getTime(),
         myInterval = setInterval(function() {    
   
           var now = new Date().getTime(),
