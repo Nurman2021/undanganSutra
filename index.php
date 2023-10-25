@@ -20,17 +20,18 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 
-    <title>Invitation</title>
+    <title>The Wedding of Aldo & Putri</title>
   </head>
   <body class="overflow-hidden">
+  
       <div class="hero-welcome-1 position-fixed " style="overflow-y:hidden">
           <div class="wrapper-hero position-absolute d-flex align-items-center justify-content-center">
-              <div class="wrapper-nama col-md-5 text-center">
-                  <h2 class="nama-mempelai" data-aos-duration="1500" data-aos="fade-down">Reynaldi Aditya Wisnuh</h2>
-                  <p class="nickname">(Rey Mbayang)</p>
+              <div class="cover-nama col-md-5 text-center">
+                  <h2 class="nama-mempelai" data-aos-duration="1500" data-aos="fade-down">Aldo Setiawan</h2>
+                  <p class="nickname">(Aldo)</p>
                   <h1 class="and">&</h1>
-                  <h2 class="nama-mempelai" data-aos-duration="1500" data-aos="fade-up">Dinda Hauw</h2>
-                  <p class="mb-5 nickname">(Dinda)</p>
+                  <h2 class="nama-mempelai" data-aos-duration="1500" data-aos="fade-up">Nur Amalia Putri</h2>
+                  <p class="mb-5 nickname">(Putri)</p>
 
                   <h4 class="invited-name mb-3 text-capitalize satisfy" data-aos-duration="1000" data-aos="zoom-in">
                       <?php
@@ -54,7 +55,7 @@
         <script src="assets/js/swiper.js" type="module"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
     <script src="assets/js/main.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

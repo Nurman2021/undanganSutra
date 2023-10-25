@@ -9,9 +9,11 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: solid 1px red; */
 }
 body {
   overflow-x: hidden;
+  background-color: rgb(208 192 237);;
 }
 
 .primary-color {
@@ -39,7 +41,7 @@ body {
 /* style starter */
 
 .hero-welcome-1 {
-  background-image: url("../img/vector-wedding.jpg");
+  background-image: url("../img/cover.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +51,7 @@ body {
   z-index: 3;
 }
 .hero-welcome {
-  background-image: url("../img/vector-wedding.jpg");
+  background-image: url("../img/cover.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +66,7 @@ body {
 }
 
 .wrapper-hero {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   top: 0;
   bottom: 0;
   left: 0;
@@ -72,9 +74,12 @@ body {
 }
 
 .wrapper-nama {
+  background-color: #000000a6;
   color: white;
   z-index: 2 !important;
+  /* padding: 3%; */
 }
+
 .nama-mempelai {
   font-family: "Satisfy", cursive;
 }
@@ -101,7 +106,7 @@ body {
   box-shadow: unset;  
 }
 .button-open {
-  background-color: #fa7d9c;
+  background-color: #b97dfa;
   color: white;
   font-family: "Poppins", sans-serif;
   transition: 0.5s all;
@@ -286,10 +291,11 @@ img.img-highlights {
 
 footer {
   text-align: center;
-  background-image: url("../img/noname.png");
+  background-image: url("../img/footer.png");
   /* background-repeat: no-repeat; */
   background-size: cover;
-  height: 100%;
+  height: 18%;
+  width: 100%;
 }
 
 /* Tablet Break Point */
@@ -309,3 +315,135 @@ footer {
     width: 60px;
   }
 }
+
+
+/* =============================================== cover =============================================== */
+.cover-nama{
+  color: white;
+  z-index: 2 !important;
+  width: 80%;
+  height: 100%;
+  /* vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ECA66375;
+  border-right: white 4px solid;
+  border-left: white 4px solid;
+}
+
+
+
+/* =============================================== cover-end =============================================== */
+
+
+
+
+
+
+
+
+/* =============================================== wedding =============================================== */
+
+/* bottom bar */
+
+.bottom-bar-container{
+  width: 100%;
+  /* background-color: #fa7d9c; */
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  align-items: center;
+  z-index: 5;
+}
+
+
+.bottom-bar{
+  width: 70%;
+  background-color: #b97dfa;
+  height: 60%;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1em 0 1em;
+}
+
+.bottom-item{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+/* bottom bar end */
+
+
+/* swipper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+/* swipper */
+
+/* =============================================== wedding-end =============================================== */
