@@ -128,7 +128,7 @@ body {
 }
 
 .part-time {
-  background-color: #616c40;
+  background-color: #b97dfa;
   height: 70px;
   width: 70px;
   border-radius: 10px;
@@ -351,7 +351,7 @@ footer {
   width: 100%;
   /* background-color: #fa7d9c; */
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   display: flex;
   justify-content: center;
   height: 15%;

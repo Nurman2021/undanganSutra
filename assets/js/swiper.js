@@ -5,6 +5,11 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  }
 });
 var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 10,
